@@ -1,6 +1,6 @@
 # scratch
 
-Charles F. F. Karney<br>
+Charles F. F. Karney (charles@karney.com)<br>
 March 6, 2006; minor revisions, October 12, 2015
 
 ## Introduction
@@ -625,10 +625,7 @@ R<sup>4</sup> via
 </blockquote>
 where <b>r</b> and <b>s</b> are fixed (possibly random) unit
 quaternions.  The pre- and post-multiplication allows all rotations of
-R<sup>4</sup> to be accessed; see
-<blockquote>
-    <a href="http://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation">http://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation</a>
-</blockquote>
+R<sup>4</sup> to be accessed.
 
 <p>
 One way of estimating the error in the numerical quadrature is to repeat
@@ -1366,11 +1363,3 @@ octogons) be such that the maximum Voronoi radius of points near this
 face match that of the point at the center of the cell.  At the same
 time, the separation of the lattice planes at the other set of faces
 must not result in larger Voronoi radii.
-
-<p>
-Originally (2006), this material was available at
-http://charles.karney.info/orientation.  There have been no substantive
-changes since then.
-
-<address>Charles Karney (charles@karney.com),
-2006-03-06, updated 2015-10-11.</address>
