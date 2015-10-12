@@ -72,7 +72,7 @@ A quaternion [<i>q</i><sub>0</sub>, <i>q</i><sub>1</sub>,
 <i>q</i><sub>2</sub>, <i>q</i><sub>3</sub>] represents the rotation give
 by the matrix whose components are
 <blockquote>
-<table border=0 cellspacing=0 cellpadding=0 valign=baseline rules="groups">
+<table>
 <tr align=center>
 <td> 1 &minus; 2<i>q</i><sub>2</sub><sup>2</sup> &minus; 2<i>q</i><sub>3</sub><sup>2</sup>
 <td>     2<i>q</i><sub>1</sub><i>q</i><sub>2</sub> &minus; 2<i>q</i><sub>0</sub><i>q</i><sub>3</sub>
@@ -110,7 +110,7 @@ a table of the orientation sets ranking by decreasing &alpha;.
 
 <p>
 <center>
-<table border=0 cellspacing=-5 cellpadding=0 valign=baseline rules="groups">
+<table rules="groups">
 <thead align=left valign=baseline>
 <tr>
   <th>name
