@@ -107,7 +107,7 @@ J. Magn. Reson. <b>132</b>, 220&ndash;239 (1998).<br>
 <p>
 Because determining optimal sets of points is a hard problem, we provide
 here &ldquo;nearly&rdquo; optimal sets of points.  We begin by providing
-a table of the orientation sets ranking by decreasing &alpha;.
+a table of the orientation sets ranked by decreasing &alpha;.
 
 <p>
 <center>
@@ -417,7 +417,7 @@ a table of the orientation sets ranking by decreasing &alpha;.
 <p>
 The orientation sets can be downloaded by the links in the
 &ldquo;download&rdquo; column.  The &ldquo;quat&rdquo; and
-&ldquo;euler&rdquo; links are in the following format:
+&ldquo;euler&rdquo; files are in the following format:
 <ul>
 <li>Any number of initial comment lines beginning with &ldquo;#&rdquo;.
 <li>A line containing either &ldquo;format quaternion&rdquo; or
@@ -509,7 +509,7 @@ convenient for this purpose.  The cells are all identical truncated
 cubes and thus a body-center-cubic lattice lines up nicely with the
 cells.  [A body-center-cubic lattice provides the thinnest covering of
 R<sup>3</sup>; see R. P. Bambah, <i>On lattice coverings by spheres</i>,
-Proc. Nat. Inst. Sci. India <b>20</b> 25&ndash;52 (1954).]
+Proc. Nat. Inst. Sci. India <b>20</b>, 25&ndash;52 (1954).]
 
 <p>
 Here is the procedure.  Each cell of the 48-cell is a truncated cube.
@@ -612,6 +612,8 @@ code, you can generate a quaternion orientation set with, e.g.,
 <blockquote>
    ./ExpandSet &lt; c48u527.grid &gt; c48u527.quat
 </blockquote>
+Supply the &ldquo;e&rdquo; option to obtain the corresponding file of
+Euler angles.
 
 <p>
 Additional denser orientation sets are provided below.  Because these
