@@ -1353,12 +1353,12 @@ results for uniform grids (&sigma; = 0):
 
 <p>
 As before, <a href="ExpandSet.cpp">ExpandSet.cpp</a> can be used to
-expand the grids into sets of quaternions.  The computation of the
-weights in these high density grid files is carried out by determining
-the volume of the Voronoi cells in axis-angle space.  Some corrections
-are applied to account for the fact that orientation space is not flat
-and the resulting maximum error in the weights is approximately
-(&delta;/12)<sup>2</sup>.
+expand the grids into sets of quaternions or Euler angles.  The
+computation of the weights in these high density grid files is carried
+out by determining the volume of the Voronoi cells in axis-angle space.
+Some corrections are applied to account for the fact that orientation
+space is not flat and the resulting maximum error in the weights is
+approximately (&delta;/12)<sup>2</sup>.
 
 <p>
 The column labeled &ldquo;approx &delta;&rdquo; illustrates that the
