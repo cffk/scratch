@@ -50,7 +50,7 @@ We can approximate an orientational average of <i>f</i>(<b>q</b>) with
 <blockquote>
     &langle;<i>f</i>&thinsp;&rangle; =
     &sum;<sub><i>i</i></sub> <i>w</i><sub><i>i</i></sub>
-    <i>f</i>(<b>q</b><sub><i>i</i></sub>) / <i>N</i>
+    <i>f</i>&thinsp;(<b>q</b><sub><i>i</i></sub>) / <i>N</i>
 </blockquote>
 Assuming that the variation in <i>f</i> is bounded, we expect that, for
 a given <i>N</i>, the error in this approximation to be minimized with
@@ -110,7 +110,7 @@ a table of the orientation sets ranking by decreasing &alpha;.
 
 <p>
 <center>
-<table rules="groups">
+<table>
 <thead align=left valign=baseline>
 <tr>
   <th>name
@@ -669,7 +669,7 @@ Here is the data
 
 <p>
 <center>
-<table border=1 cellspacing=0 cellpadding=0 valign=baseline rules="groups">
+<table>
 <thead align=left valign=baseline>
 <tr>
   <th>name
@@ -734,7 +734,7 @@ results for uniform grids (&sigma; = 0):
 
 <p>
 <center>
-<table border=1 cellspacing=0 cellpadding=0 valign=baseline rules="groups">
+<table>
 <thead align=left valign=baseline>
 <tr>
   <th>name
