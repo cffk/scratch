@@ -612,7 +612,7 @@ code, you can generate a quaternion orientation set with, e.g.,
 <blockquote>
    ./ExpandSet &lt; c48u527.grid &gt; c48u527.quat
 </blockquote>
-Supply the &ldquo;e&rdquo; option to obtain the corresponding file of
+Supply the &ldquo;-e&rdquo; option to obtain the corresponding file of
 Euler angles.
 
 <p>
