@@ -556,7 +556,7 @@ One possibility is to use a non-uniform lattice spacing using
    <i>p</i><sub>1</sub> = sinh(&sigma; <i>k</i> &delta;/2)/&sigma;,
 </blockquote>
 and similarly for <i>p</i><sub>2</sub> and <i>p</i><sub>3</sub>.
-(The uniform lattice is recovered in the limit &sigma; &rarrow; 0.)  The
+(The uniform lattice is recovered in the limit &sigma; &rarr; 0.)  The
 increasing lattice spacing afforded by the sinh function counteracts
 the bunching of points occurring when the lattice points are projected
 onto S<sup>3</sup>.)  The two sets c48n309 and c48n527 are two examples
