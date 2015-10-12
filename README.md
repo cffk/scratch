@@ -48,7 +48,7 @@ relative weight of <b>q</b><sub><i>i</i></sub> as
 </blockquote>
 We can approximate an orientational average of <i>f</i>(<b>q</b>) with
 <blockquote>
-    &langle;<i>f</i>&rangle; =
+    &langle;<i>f</i>&thinsp;&rangle; =
     &sum;<sub><i>i</i></sub> <i>w</i><sub><i>i</i></sub>
     <i>f</i>(<b>q</b><sub><i>i</i></sub>) / <i>N</i>
 </blockquote>
