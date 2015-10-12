@@ -44,7 +44,7 @@ set, <b>q</b><sub><i>i</i></sub>, all orientations for which
 relative weight of <b>q</b><sub><i>i</i></sub> as
 <blockquote>
     <i>w</i><sub><i>i</i></sub> =
-     <i>N</i>(volume of Voronoi cell <i>i</i>)/(volume of orientation space)
+    <i>N</i>(volume of Voronoi cell <i>i</i>)/(volume of orientation space)
 </blockquote>
 We can approximate an orientational average of <i>f</i>(<b>q</b>) with
 <blockquote>
