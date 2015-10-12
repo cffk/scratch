@@ -111,7 +111,7 @@ a table of the orientation sets ranking by decreasing &alpha;.
 <p>
 <center>
 <table>
-<thead align=left valign=baseline>
+<thead align=left>
 <tr>
   <th>name
   <th align=center><i>N</i>
@@ -120,7 +120,7 @@ a table of the orientation sets ranking by decreasing &alpha;.
   <th align=center>&delta;
   <th align=center>&sigma;
   <th>download
-<tbody align=left valign=baseline>
+<tbody align=left>
 <tr>
 <td>c48u1
 <td align=right>     24
@@ -670,13 +670,13 @@ Here is the data
 <p>
 <center>
 <table>
-<thead align=left valign=baseline>
+<thead align=left>
 <tr>
   <th>name
   <th align=center><i>N</i>
   <th align=center>&alpha; (&deg;)
   <th align=center><i>c</i>
-<tbody align=left valign=baseline>
+<tbody align=left>
 <tr>
 <td>  ZCW3_50
 <td align=right>   50
@@ -735,7 +735,7 @@ results for uniform grids (&sigma; = 0):
 <p>
 <center>
 <table>
-<thead align=left valign=baseline>
+<thead align=left>
 <tr>
   <th>name
   <th align=center><i>N</i>
@@ -744,7 +744,7 @@ results for uniform grids (&sigma; = 0):
   <th align=center>&delta;
   <th align=center>approx &delta;
   <th>download
-<tbody align=left valign=baseline>
+<tbody align=left>
 <tr>
 <td>
 <td align=right>   141096
