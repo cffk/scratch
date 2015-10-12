@@ -434,8 +434,8 @@ The orientation sets can be downloaded by the links in the
     <i>g</i><sub><i>i</i></sub>
     <i>w</i><sub><i>i</i></sub> (for Euler angles).
 </ul>
-The convention for Euler angles is <i>R</i><sub><i>z</i></sub>(<i>a</i>)
-<i>R</i><sub><i>y</i></sub>(<i>b</i>) <i>R</i><sub><i>z</i></sub>(<i>g</i>).
+The convention for Euler angles is <i>R<sub>z</sub></i>(<i>a</i>)
+<i>R<sub>y</sub></i>(<i>b</i>) <i>R<sub>z</sub></i>(<i>g</i>).
 
 <p>
 The &ldquo;grid&rdquo; links provide a compact representation for those
