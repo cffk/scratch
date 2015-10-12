@@ -110,7 +110,7 @@ a table of the orientation sets ranking by decreasing &alpha;.
 
 <p>
 <center>
-<table border=0 cellspacing=0 cellpadding=0 valign=baseline rules="groups">
+<table border=0 cellspacing=-5 cellpadding=0 valign=baseline rules="groups">
 <thead align=left valign=baseline>
 <tr>
   <th>name
