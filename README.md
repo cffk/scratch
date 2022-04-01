@@ -21,13 +21,15 @@ and
 ## Installation
 
 Tha Octave packages can be installed with the command
-
-> pkg install https://sourceforge.net/projects/geographiclib/files/distrib-Octave/geographiclib-octave-M.N.tar.gz
-> pkg load geographiclib
+```octave
+pkg install https://sourceforge.net/projects/geographiclib/files/distrib-Octave/geographiclib-octave-M.N.tar.gz
+pkg load geographiclib
+```
 
 The MATLAB toolbox can be installed with the command
-
-> matlab.addons.install geographiclib_toolbox-M.N.mltbx
+```octave
+matlab.addons.install geographiclib_toolbox-M.N.mltbx
+```
 
 ## Summary
 
