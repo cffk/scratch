@@ -13,8 +13,8 @@ sldflsdkjf
 Octave/MATLAB implementation of some routines in GeographicLib
 
 The Octave/MATLAB packages are available on
-[SourceForge]
-(https://sourceforge.net/projects/geographiclib/files/distrib-Octave)
+[SourceForge](
+https://sourceforge.net/projects/geographiclib/files/distrib-Octave)
 and
 [MATLAB Central](https://www.mathworks.com/matlabcentral/fileexchange/50605).
 
