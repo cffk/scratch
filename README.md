@@ -1,23 +1,5 @@
 # Octave/MATLAB implementation of GeographicLib
 
-The Octave/MATLAB packages are available on
-[SourceForge](
-https://sourceforge.net/projects/geographiclib/files/distrib-Octave)
-and
-[MATLAB Central](https://www.mathworks.com/matlabcentral/fileexchange/50605).
-
-## Installation
-
-Tha Octave package can be installed with the command
-```octave
-pkg install geographiclib-octave-M.N.tar.gz
-pkg load geographiclib
-```
-The MATLAB toolbox can be installed with the command
-```octave
-matlab.addons.install geographiclib_toolbox-M.N.mltbx
-```
-
 ## Introduction
 
 This toolbox provides native MATLAB implementations of a subset of the
@@ -52,6 +34,24 @@ Toolbox.  However, this toolbox offers:
   * calculation of area and differential properties of geodesics;
   * ellipsoidal versions of the equidistant azimuthal and gnomonic
     projections.
+
+## Installation
+
+The Octave/MATLAB packages are available on
+[SourceForge](
+https://sourceforge.net/projects/geographiclib/files/distrib-Octave)
+and
+[MATLAB Central](https://www.mathworks.com/matlabcentral/fileexchange/50605).
+
+Tha Octave package can be installed with the command
+```octave
+pkg install geographiclib-octave-M.N.tar.gz
+pkg load geographiclib
+```
+The MATLAB toolbox can be installed with the command
+```octave
+matlab.addons.install geographiclib_toolbox-M.N.mltbx
+```
 
 ## Function summary
 
@@ -106,7 +106,7 @@ Toolbox.  However, this toolbox offers:
 
 ## Other links
   * How to install the [geoid datasets](
-    https://geographiclib.sourceforge.io/C++/doc/geoid.html#geoidinst)
+    https://geographiclib.sourceforge.io/C++/doc/geoid.html#geoidinst).
   * C. F. F. Karney, [Transverse Mercator with an accuracy of a few
     nanometers]( https://doi.org/10.1007/s00190-011-0445-3),
     J. Geodesy, 2011, [preprint](https://arxiv.org/abs/1002.1417).
