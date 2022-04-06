@@ -1,4 +1,22 @@
-# GeographicLib toolbox
+# Octave/MATLAB implementation of some routines in GeographicLib
+
+The Octave/MATLAB packages are available on
+[SourceForge](
+https://sourceforge.net/projects/geographiclib/files/distrib-Octave)
+and
+[MATLAB Central](https://www.mathworks.com/matlabcentral/fileexchange/50605).
+
+## Installation
+
+Tha Octave package can be installed with the command
+```octave
+pkg install geographiclib-octave-M.N.tar.gz
+pkg load geographiclib
+```
+The MATLAB toolbox can be installed with the command
+```octave
+matlab.addons.install geographiclib_toolbox-M.N.mltbx
+```
 
 ## Introduction
 
@@ -85,3 +103,13 @@ Toolbox.  However, this toolbox offers:
   * `geoddoc`          - Geodesics on an ellipsoid of revolution
   * `projdoc`          - Projections for an ellipsoid
   * `gedoc`            - Great ellipses on an ellipsoid of revolution
+
+## Other links
+  * [information about the geoid datasets](
+    https://geographiclib.sourceforge.io/C++/doc/geoid.html#geoidinst)
+  * [change log](https://geographiclib.sourceforge.io/C++/doc/changes.html)
+  * C. F. F. Karney, [Transverse Mercator with an accuracy of a few
+    nanometers]( https://doi.org/10.1007/s00190-011-0445-3),
+    J. Geodesy, 2011, (preprint)[https://arxiv.org/abs/1002.1417].
+  * C. F. F. Karney, [Algorithms for geodesics](
+    https://doi.org/10.1007/s00190-012-0578-z), J. Geodesy, 2013.
