@@ -1,5 +1,12 @@
 # Octave/MATLAB implementation of GeographicLib
 
+Contents:
+* [Introduction](#the-introduction)
+* [Installation](#the-installation)
+* [Function summary](#the-function-summary)
+* [Changes](#the-changes)
+* [Other links](#the-other-links)
+
 ## Introduction
 
 This toolbox provides native MATLAB implementations of a subset of the
@@ -103,6 +110,10 @@ matlab.addons.install geographiclib_toolbox-M.N.mltbx
   * `geoddoc`          - Geodesics on an ellipsoid of revolution
   * `projdoc`          - Projections for an ellipsoid
   * `gedoc`            - Great ellipses on an ellipsoid of revolution
+
+## Changes
+
+See the [change log](NEWS).
 
 ## Other links
   * [GeographicLib](https://geographiclib.sourceforge.io).
