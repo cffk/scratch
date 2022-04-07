@@ -1,11 +1,11 @@
 # Octave/MATLAB implementation of GeographicLib
 
 Contents:
-* [Introduction](#the-introduction)
-* [Installation](#the-installation)
-* [Function summary](#the-function-summary)
-* [Changes](#the-changes)
-* [Other links](#the-other-links)
+* [Introduction](#introduction)
+* [Installation](#installation)
+* [Function summary](#function-summary)
+* [Changes](#changes)
+* [Other links](#other-links)
 
 ## Introduction
 
