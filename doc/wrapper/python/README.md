@@ -1,7 +1,8 @@
-# Calling GeographicLib C++ library from Python
+# Calling the GeographicLib C++ library from Python
 
-The geodesic routines in GeographicLib have been implemented as a native
-Python library.  See
+The geodesic routines in GeographicLib have been implemented as a
+[native Python library](http://pypi.python.org/pypi/geographiclib).
+For documentation see
 
   https://geographiclib.sourceforge.io/Python/doc/
 
@@ -16,19 +17,19 @@ information on calling boost-python, see
   https://www.boost.org/doc/libs/release/libs/python
 
 To build and install this interface, do
-
-  mkdir BUILD
-  cd BUILD
-  cmake -D CMAKE_INSTALL_PREFIX=~/.local ..
-  make
-  make install
-
+```bash
+mkdir BUILD
+cd BUILD
+cmake -D CMAKE_INSTALL_PREFIX=~/.local ..
+make
+make install
+```
 This assumes that you have installed GeographicLib somewhere that cmake
 can find it.  If you want just to use the version of GeographicLib that
 you have built in the top-level BUILD directory, include, e.g.,
-
-  -D GeographicLib_DIR=../../BUILD
-
+```bash
+-D GeographicLib_DIR=../../BUILD
+```
 in the invocation of cmake (the directory is relative to the source
 directory, wrapper/python).
 
@@ -38,14 +39,13 @@ directory, wrapper/python).
 
 which is in the default search path for python 2.7.  To convert 20m
 above the geoid at 42N 75W to a height above the ellipsoid, do
-
 ```python
-  $ python
-  >>> from PyGeographicLib import Geoid
-  >>> geoid = Geoid("egm2008-1")
-  >>> geoid.EllipsoidHeight(42, -75, 20)
-  -10.671887499999997
-  >>> help(Geoid.EllipsoidHeight)
+$ python
+>>> from PyGeographicLib import Geoid
+>>> geoid = Geoid("egm2008-1")
+>>> geoid.EllipsoidHeight(42, -75, 20)
+-10.671887499999997
+>>> help(Geoid.EllipsoidHeight)
 ```
 
 Notes:
@@ -61,9 +61,8 @@ Notes:
 
 * CMakeLists.txt specifies the version of python to look for (version
   2.7).  This must match that used in boost-python.  To check do, e.g.,
-
   ```bash
-    ldd /usr/lib64/libboost_python.so
+  ldd /usr/lib64/libboost_python.so
   ```
 
 * CmakeLists.txt looks for a shared-library version of GeographicLib.
