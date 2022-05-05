@@ -62,6 +62,8 @@ matlab.addons.install geographiclib_toolbox-M.N.mltbx
 
 ## Function summary
 
+Click on the function name for the definition of the function.
+
 ### Geodesics
   * `geoddistance`     - Distance between points on an ellipsoid
   * `geodreckon`       - Point at specified azimuth, range on an ellipsoid
